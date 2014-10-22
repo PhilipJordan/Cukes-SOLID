@@ -5,6 +5,6 @@ rem set PORTABLE_CHROME=%cd%\GoogleChromePortable\GoogleChromePortable.exe
 
 cd cukes
  
-call bundle exec cucumber --tags @missionControl
+call bundle exec cucumber --tags @missionControl -p lab
 
 cd.. 

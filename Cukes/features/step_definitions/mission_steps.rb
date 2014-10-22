@@ -153,6 +153,39 @@ end
 
 
 
+#Steps added for the LSP+ISP talk
+
+Given(/^an alien at (\d+)x(\d+)$/) do |arg1, arg2|
+end
+
+Then(/^the alien will move to an adjacent space$/) do
+end
+
+Given(/^aliens in the adjacent spaces to (\d+)x(\d+)$/) do |arg1, arg2|
+end
+
+Given(/^obstacles surrounding all of the aliens$/) do
+end
+
+Then(/^(\d+)x(\d+) will contain an alien$/) do |arg1, arg2|
+end
+
+Given(/^obstacles in the adjacent spaces to (\d+)x(\d+)$/) do |arg1, arg2|
+end
+
+Then(/^the map will not contain any aliens$/) do
+end
+
+Given(/^a series of commands are issued to the rover$/) do
+end
+
+When(/^the rover executes a series of commands$/) do
+end
+
+Then(/^the alien will move once per command$/) do
+end
+
+
 
 
 

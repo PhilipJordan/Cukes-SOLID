@@ -1,1 +1,3 @@
-default: --no-source --color --format pretty
+default: --no-source --color --format pretty TARGET=TEST
+lab: --no-source --color --format pretty TARGET=TEST
+spoiler: --no-source --color --format pretty TARGET=FINAL
